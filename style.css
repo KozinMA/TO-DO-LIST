@@ -35,7 +35,7 @@ h1 {
 .stroka_elements {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     align-content: space-between;
 }
@@ -46,6 +46,7 @@ h1 {
     flex-wrap: nowrap;
     width: 305px;
     justify-content: space-between;
+    margin-top: 5px;
 }
 
 #ADD_btn {
