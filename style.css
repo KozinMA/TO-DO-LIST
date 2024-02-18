@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(100, 170, 103, 0.8);  
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*Контент header*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+}
+h1 {
+    height: 50px;
+    width: 190px;
+}
+#inp-text {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5%; 
+}
+
+.knopki {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 30%;
+} 
+
+.stroka_elements {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    height: 80px;
+}
+
+.group_btn {
+    margin-left: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 305px;
+    justify-content: space-between;
+}
+
+/*Контент main*/
+main {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.krestiki_btn {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.text-case {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+.str-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 480px; 
+    margin: 10px 0px 10px 0px;
+}
+.block-case {
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
+    background-color: rgb(21, 136, 72, 0.5); 
+    width: 600px;
+    height: 25vh;
+    overflow-y:auto;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    color:gold;
+}
+
+/*Контент footer*/
+footer {
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgb(100, 170, 103);
+    text-align: center;
+    font-size: 30px;
+}

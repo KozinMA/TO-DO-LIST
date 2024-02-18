@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="bloknot.png" type="image/png">
+    <title>To-Do-List</title>
+</head>
+<body>
+   <header>
+        <h1>Список дел</h1>
+        <div class="stroka_elements">
+            <input id="inp-text" placeholder="Напишите дело!"/></input>
+            <div class="group_btn">
+                <button type="button" class="knopki">Добавить</button>
+                <button type="button" class="knopki">Очистить всё</button>
+            </div>
+            <select id="selectID">
+                <option value="active">Активные</option>                
+                <option value="finishes">Завершенные</option>                
+                <option value="deletes">Удаленные</option>  
+            </select>
+        </div> 
+   </header> 
+   <main>
+        <div class="block-case">
+            <div class="str-list"><div class="text-case"><input type="checkbox">Почесать кошку</div><button type="button" class="krestiki_btn"><img src="krest.png" height="20" width="20"></button></div>
+            <div class="str-list"><div class="text-case"><input type="checkbox">Сложить в лукошко</div><button type="button" class="krestiki_btn"><img src="krest.png" height="20" width="20"></button></div>
+            <div class="str-list"><div class="text-case"><input type="checkbox">Полить картошку</div><button type="button" class="krestiki_btn"><img src="krest.png" height="20" width="20"></button></div>
+            <div class="str-list"><div class="text-case"><input type="checkbox">Почесать кошку</div><button type="button" class="krestiki_btn"><img src="krest.png" height="20" width="20"></button></div>
+            <div class="str-list"><div class="text-case"><input type="checkbox">Сложить в лукошко</div><button type="button" class="krestiki_btn"><img src="krest.png" height="20" width="20"></button></div>
+            <div class="str-list"><div class="text-case"><input type="checkbox">Полить картошку</div><button type="button" class="krestiki_btn"><img src="krest.png" height="20" width="20"></button></div>
+        </div>
+    <script src="script.js"></script>
+   </main>
+   
+   <footer>
+        Copyright ©
+   </footer>
+</body>
+</html>
