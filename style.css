@@ -84,6 +84,12 @@ ol {
 
 li::marker {
     color: rgba(12, 11, 11, 0.849);
+    font-size: 20pt;
+}
+
+.centr-text {
+    text-align: center;
+    line-height: 50vh;
 }
 
 .block-case {
